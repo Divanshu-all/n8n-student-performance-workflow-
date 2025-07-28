@@ -71,32 +71,30 @@ Built using a **two-workflow architecture**, this system separates raw data coll
 - ✅ **Twilio Account** (WhatsApp Sandbox enabled)
 
 ---
+---
+⚠️ Due to the use of private API credentials (Gmail, Slack, Twilio), this project is not available for public live demo — but happy to walk through the architecture or share setup steps!
+---
+## 🔗 LinkedIn Project Post  
+To see a public summary and walkthrough of this project, check out the LinkedIn post here:  
+👉 [View on LinkedIn](https://tinyurl.com/56brafcn)  
+*Includes context, system architecture, and notification logic breakdown.*
+---
 
 ## 📁 Google Sheets Structure
 
 Ensure all data sheets have the following columns:
-
 ```text
-StudentID
-SubjectCode
-SubjectName
-Semester
-Branch
-MidTermMarks
-FinalMarks
-ClassesAttended
-TotalClasses
-Assignment-1
-Assignment-2
-TotalAssign-Score
-parent_phone  <-- (e.g., +919876543210)
-
-⚠️ Due to the use of private API credentials (Gmail, Slack, Twilio), this project is not available for public live demo — but happy to walk through the architecture or share setup steps!
-
-
-## 🔗 LinkedIn Project Post
-
-To see a public summary and walkthrough of this project, check out the LinkedIn post here:  
-👉 [View on LinkedIn](https://tinyurl.com/56brafcn)
-
-*Includes context, system architecture, and notification logic breakdown.*
+StudentID  
+SubjectCode  
+SubjectName  
+Semester  
+Branch  
+MidTermMarks  
+FinalMarks  
+ClassesAttended  
+TotalClasses  
+Assignment-1  
+Assignment-2  
+TotalAssign-Score  
+parent_phone  <-- (e.g.,9876543210)
+```  
