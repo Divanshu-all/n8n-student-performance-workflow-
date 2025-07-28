@@ -1,3 +1,4 @@
+```mermaid
 graph TD
 
 %% Workflow 1: Read-&-Upload
@@ -26,3 +27,4 @@ NotifySwitch --> UpdateSheet[Update Master Sheet]
 
 CheckRisk -->|No| UpdateSheet
 
+```
